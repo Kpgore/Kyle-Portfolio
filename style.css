@@ -18,7 +18,7 @@ header {
     font-size: 20px;
 }
 
-ul {
+ol {
     display: inline-block;
 }
 
@@ -27,7 +27,7 @@ article, header, main {
     width: 500px;
 }
 
-ol {
+ul {
     display: flex;
     list-style: none;
     justify-content: center;
