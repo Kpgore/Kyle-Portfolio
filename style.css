@@ -7,6 +7,7 @@ body {
     font-size: larger;
     text-align: center;
     color: rgb(0, 0, 0);
+    margin: 0;
 }
 
 header {
@@ -17,13 +18,19 @@ header {
     font-size: 20px;
 }
 
-ul, ol {
+ul {
     display: inline-block;
 }
 
 article, header, main {
     display: inline-block;
     width: 500px;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
 
 hr {
@@ -42,4 +49,13 @@ img {
 ion-icon {
     font-size: 60px;
     padding-bottom: 30px;
+}
+
+ion-icon:hover {
+    color: white;
+}
+
+ion-icon:active {
+    color: white;
+    opacity: .5;
 }
